@@ -1,0 +1,882 @@
+@media (max-width:1199px) {
+    .container {
+        max-width: 1020px;
+    }
+
+    .sec-3-maps {
+        grid-template-columns: repeat(3, 300px) !important;
+
+    }
+
+    .sec-3-box-img {
+        height: 200px !important;
+    }
+
+    .header-flex {
+        gap: 19px !important;
+    }
+
+    .head-2 ul {
+        gap: 15px !important;
+    }
+
+    .head-3 ul {
+        gap: 15px !important;
+    }
+
+    .section2 {
+        left: 69% !important;
+    }
+
+    .sec2-box h2 {
+        font-size: 60px !important;
+    }
+
+    .img-open span img {
+        max-width: 900px !important;
+        max-height: 450px !important;
+    }
+
+    .btn-close-img {
+        font-size: 30px !important;
+    }
+
+    .sec5-box h5 {
+        font-size: 37px !important;
+    }
+
+    .section5-text {
+        left: 33% !important;
+    }
+
+    .footer-box1 {
+        height: 300px !important;
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(3, 320px) !important;
+    }
+
+    .gallery-grid-img {
+        height: 220px !important;
+    }
+
+    .about-sec2-1 {
+        padding: 20px 20px 20px 50px !important;
+    }
+
+    .head-2 ul li {
+        font-size: 18px !important;
+    }
+
+    .head-3-btn {
+        font-size: 16px !important;
+    }
+
+    .head-1 {
+        width: 200px !important;
+    }
+
+    .about-sec2-1-result span h1 {
+        font-size: 22px !important;
+    }
+
+    .about-sec2-1-result span h5 {
+        font-size: 16px !important;
+    }
+
+    .about-sec2-2 img {
+        height: 550px !important;
+    }
+
+    .about-sec2-2 {
+        height: 550px !important;
+    }
+
+    .about-sec2-1-text {
+        gap: 17px !important;
+    }
+
+    .about-sec2-1-text h2 {
+        line-height: 20px !important;
+    }
+
+    .contact-sec-1 {
+        height: 400px !important;
+    }
+
+    .contact-sec-1-text {
+        top: 100px !important;
+    }
+
+    .contact-sec-3-boxs {
+        grid-template-columns: repeat(2, 470px) !important;
+
+    }
+
+    .contact-sec-3-box-img {
+        width: 140px !important;
+        height: 140px !important;
+    }
+
+    .contact-sec-3-box-text {
+        gap: 5px !important;
+    }
+
+    .contact-sec-3-box-text h3 {
+        font-size: 12px !important;
+    }
+
+    .contact-sec-3-box-text h3>span {
+        font-size: 13px !important;
+    }
+
+    .contact-sec-3-box-soc a {
+        width: 35px !important;
+        height: 35px !important;
+    }
+
+    .details-box1-img div span {
+        width: 560px !important;
+        height: 520px !important;
+
+    }
+
+    .details-box1-img {
+        width: 560px !important;
+        height: 520px !important;
+    }
+
+    .text-tours span h3 {
+        font-size: 23px !important;
+    }
+
+    .text-tours {
+        margin-bottom: 15px !important;
+    }
+
+    .text-tours-desc h3:nth-child(3) {
+        margin-top: 15px !important;
+    }
+
+    .text-tours-icons {
+        margin-top: 15px !important;
+    }
+
+    .text-tourts-btn {
+        padding: 15px 0 0 !important;
+    }
+
+    .flex2-box1-btn {
+        gap: 15px !important;
+    }
+
+    .box1-linkbtn button {
+        padding: 7px 30px !important;
+    }
+
+    .flex2-box2-1 {
+        min-height: 500px !important;
+    }
+
+    .text-tours span h3:nth-child(2) {
+        margin-top: 15px !important;
+    }
+}
+
+@media (max-width:1023px) {
+    .container {
+        max-width: 760px;
+    }
+
+    .head-2 ul li {
+        font-size: 14px !important
+    }
+
+    .head-3-btn {
+        font-size: 14px !important;
+    }
+
+    .section2 {
+        left: 67% !important;
+    }
+
+    .sec2-box h2 {
+        font-size: 50px !important;
+    }
+
+    .sec2-button {
+        font-size: 16px !important;
+    }
+
+    .sec-3-maps {
+        grid-template-columns: repeat(3, 230px) !important;
+        gap: 15px !important;
+    }
+
+    .sec-3-box-img {
+        height: 180px !important;
+    }
+
+    .sec-4-grid {
+        grid-template-columns: repeat(4, 154px) !important;
+        gap: 30px !important;
+        grid-auto-rows: 165px !important;
+    }
+
+    .section5 {
+        height: 40vh !important;
+        background-position: 0px -40px !important;
+    }
+
+    .section5-text {
+        left: 25% !important;
+    }
+
+    .sec5-box h5 {
+        font-size: 25px !important;
+    }
+
+    .details-box1-img div span {
+        width: 400px !important;
+        height: 460px !important;
+    }
+
+    .details-box1-img {
+        width: 400px !important;
+        height: 460px !important;
+    }
+
+    .details-box1-text {
+        padding: 15px 30px !important;
+    }
+
+    .details-box1-text {
+        width: 350px !important;
+    }
+
+    .box1-linkbtn button {
+        padding: 7px 9px !important;
+    }
+
+    .flex2-box2-1 {
+        min-height: 390px !important;
+    }
+
+    .tours-flex {
+        grid-template-columns: repeat(2, 340px) !important;
+    }
+
+    .tours-box-img {
+        height: 270px !important;
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(3, 240px) !important;
+    }
+
+    .gallery-grid-img {
+        height: 200px !important;
+    }
+
+    .about-sec2-2 {
+        height: 420px !important;
+    }
+
+    .about-sec2-2 img {
+        height: 420px !important;
+    }
+
+    .about-sec2-1 {
+        padding: 15px !important;
+    }
+
+    .about-sec2-1-zagolovka {
+        font-size: 24px !important;
+    }
+
+    .about-sec2-1 {
+        gap: 15px !important;
+    }
+
+    .about-sec2-1-result {
+        white-space: pre-wrap !important;
+        display: grid !important;
+        width: 100%;
+        grid-template-columns: repeat(2, auto) !important;
+    }
+
+    .contact-sec-3-boxs {
+        align-items: stretch !important;
+        grid-template-columns: repeat(2, 365px) !important;
+        gap: 10px !important;
+    }
+
+    .contact-sec-3-box-img {
+        width: 110px !important;
+        height: 110px !important;
+    }
+
+    .contact-sec-3-box {
+        padding: 10px !important;
+        gap: 10px !important;
+    }
+
+    .contact-sec-3-box-text {
+        width: 65% !important;
+    }
+
+    .contact-sec-3-box-soc a i {
+        font-size: 23px !important;
+    }
+
+    .contact-sec-3-box-soc a {
+        width: 33px !important;
+        height: 33px !important;
+    }
+
+    .request-form {
+        width: 720px !important;
+    }
+
+    .form1 {
+        grid-template-columns: repeat(2, 320px) !important;
+    }
+
+    .details-box1 {
+        align-items: center !important;
+    }
+
+    .contact-sec-1-text h4 {
+        font-size: 43px !important;
+    }
+
+    .contact-sec-1-text h3 {
+        font-size: 22px !important;
+    }
+
+    .header-flex {
+        gap: 13px !important;
+    }
+
+    .head-2 ul {
+        gap: 13px !important;
+    }
+}
+
+@media (max-width:767px) {
+    .container {
+        max-width: 580px !important;
+    }
+
+    .head-3-btn {
+        display: none !important;
+    }
+
+    .sec-3-maps {
+        grid-template-columns: repeat(2, 250px) !important;
+    }
+
+    .sec-4-grid {
+        grid-template-columns: repeat(2, 254px) !important;
+        grid-auto-rows: 170px !important;
+    }
+
+    .sec-4-grid div:nth-child(1),
+    .sec-4-grid div:nth-child(2),
+    .sec-4-grid div:nth-child(3),
+    .sec-4-grid div:nth-child(4) {
+        grid-column-start: auto !important;
+        grid-column-end: auto !important;
+        grid-row-start: auto !important;
+        grid-row-end: auto !important;
+    }
+
+    .sec-3-text {
+        font-size: 20px !important;
+    }
+
+    .box2-line1 {
+        gap: 40px !important;
+    }
+
+    .head-3 ul {
+        gap: 0px !important;
+    }
+
+    .logo-i-li {
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .logo-i-li i {
+        font-size: 20px !important;
+    }
+
+    .line1-soc a {
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .line1-soc a i {
+        font-size: 20px !important;
+    }
+
+    .line1-li-text h1 {
+        font-size: 8px !important;
+    }
+
+    .section2 {
+        left: 64% !important;
+    }
+
+    .head-1 {
+        width: 150px !important;
+    }
+
+    .img-open span img {
+        max-width: 700px !important;
+        max-height: 350px !important;
+    }
+
+    .tours-flex {
+        grid-template-columns: repeat(2, 240px) !important;
+    }
+
+    .tours-box-img {
+        height: 210px !important;
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(2, 240px) !important;
+    }
+
+    .about-sec2 {
+        flex-direction: column-reverse !important;
+    }
+
+    .about-sec2-1 {
+        width: 90% !important;
+    }
+
+    .about-sec2-2 {
+        width: 90% !important;
+    }
+
+    .about-sec2-2 img {
+        left: 0 !important;
+    }
+
+    .about-sec1-1 {
+        font-size: 20px !important;
+    }
+
+    .contact-sec-2 {
+        grid-auto-rows: 120px !important;
+    }
+
+    .contact-sec-2-box-1 {
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .contact-sec-2-box-3 a {
+        width: 45px !important;
+        height: 45px !important;
+    }
+
+    .contact-sec-2-box-3 i {
+        font-size: 40px !important;
+    }
+
+    .contact-sec-2-box-2 h3 {
+        font-size: 18px !important;
+    }
+
+    .contact-sec-2-box-2 h4 {
+        font-size: 14px !important;
+    }
+
+    .contact-sec-2-box-1 i {
+        font-size: 45px !important;
+    }
+
+    .contact-sec-3-box {
+        flex-direction: column !important;
+    }
+
+    .contact-sec-3-boxs {
+        grid-template-columns: repeat(2, auto) !important;
+    }
+
+    .contact-sec-3-box-text {
+        align-items: center !important;
+        width: 100% !important;
+    }
+
+    .contact-sec-1-text h4 {
+        font-size: 33px !important;
+    }
+
+    .contact-sec-1-text h3 {
+        font-size: 19px !important;
+    }
+
+    .about-sec2-1-result {
+        grid-template-columns: repeat(4, auto) !important;
+    }
+
+    .request-form {
+        width: 550px !important;
+    }
+
+    .form1 {
+        grid-template-columns: repeat(2, 220px) !important;
+    }
+
+    .details-box1 {
+        flex-direction: column !important;
+    }
+
+    .details-box1-img,
+    .details-box1-img div span {
+        width: 560px !important;
+        height: 460px !important;
+    }
+
+    .details-box1-text {
+        width: 90% !important;
+    }
+
+    .details-flex2 {
+        align-items: center !important;
+        justify-content: center !important;
+        flex-direction: column !important;
+    }
+
+    .details-flex2-box1 {
+        max-width: none !important;
+        width: 90% !important;
+    }
+
+    .details-flex2-box2 {
+        max-width: none !important;
+        width: 90% !important;
+        margin: 40px 0 !important;
+    }
+
+    .flex2-box2-1 {
+        min-height: 690px !important;
+    }
+
+    .section5-text {
+        left: 35% !important;
+    }
+
+    .section5 {
+        height: 35vh !important;
+    }
+
+}
+
+@media (max-width:581px) {
+    .container {
+        max-width: 480px !important;
+    }
+
+    .head-2 ul li {
+        font-size: 11px !important;
+    }
+
+    .sec-3-maps {
+        grid-template-columns: repeat(2, 220px) !important;
+    }
+
+    .sec-4-grid {
+        grid-template-columns: repeat(2, 224px) !important;
+        grid-auto-rows: 150px !important;
+        gap: 20px !important;
+    }
+
+    .section2 {
+        left: 60% !important;
+    }
+
+    .sec2-box h2 {
+        font-size: 40px !important;
+    }
+
+    .sec2-box h4 {
+        font-size: 15px !important;
+    }
+
+    .box2-line1 {
+        gap: 10px !important;
+    }
+
+    .line1-li:nth-child(2)::before,
+    .line1-li:nth-child(3)::before,
+    .line1-soc::before {
+        left: -6px !important;
+    }
+
+    .img-open span img {
+        max-width: 479px !important;
+        max-height: 350px !important;
+    }
+
+    .sec5-box h5 {
+        font-size: 20px !important;
+    }
+
+    .section5-text {
+        left: 30% !important;
+    }
+
+    .section5 {
+        height: 30vh !important;
+        background-position: 0px -0px !important;
+    }
+
+    .request-form {
+        min-width: 0 !important;
+        width: 450px !important;
+        padding: 20px 25px !important;
+    }
+
+    .form1 {
+        grid-template-columns: repeat(2, 170px) !important;
+    }
+
+    .details-box1-img,
+    .details-box1-img div span {
+        width: 440px !important;
+        height: 380px !important;
+    }
+
+    .tours-flex {
+        grid-template-columns: repeat(2, 210px) !important;
+    }
+
+    .tours-box-img {
+        height: 180px !important;
+    }
+
+    .tours-title-text {
+        font-size: 21px !important;
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(2, 220px) !important;
+    }
+
+    .gallery-grid-img {
+        height: 180px !important;
+    }
+
+    .about-sec2-1-result span h5 {
+        white-space: nowrap !important;
+        font-size: 15px !important;
+    }
+
+    .contact-sec-2 {
+        display: flex !important;
+        flex-direction: column;
+        gap: 20px !important;
+    }
+
+    .googlemaps {
+        width: 400px !important;
+        height: 300px !important;
+    }
+}
+
+@media (max-width:481px) {
+    .container {
+        max-width: 320px !important;
+    }
+
+    .head-3-btn-menu {
+        display: block !important;
+    }
+
+    .head-2 {
+        display: none !important;
+    }
+
+    .head-3-btn {
+        display: block !important;
+    }
+
+    .head-3 ul {
+        gap: 5px !important;
+    }
+
+    .head-3-btn {
+        font-size: 12px !important;
+    }
+
+    .sec-3-maps {
+        grid-template-columns: repeat(1, 250px) !important;
+    }
+
+    .sec-4-grid {
+        grid-template-columns: repeat(1, 250px) !important;
+        grid-auto-rows: 170px !important;
+    }
+
+    .sec2-btn {
+        gap: 20px !important;
+    }
+
+    .section2 {
+        left: 51% !important;
+    }
+
+    .sec2-box h2 {
+        font-size: 35px !important;
+    }
+
+    .sec2-box h3,
+    .sec2-box h4 {
+        font-size: 14px !important;
+    }
+
+    .sec2-button {
+        font-size: 14px !important;
+    }
+
+    .section5-text {
+        left: 36% !important;
+    }
+
+    .sec5-box h5 {
+        font-size: 17px !important;
+    }
+
+    .section5 {
+        height: 15vh !important;
+        background-position: center !important;
+    }
+
+    .box2-line1 {
+        flex-direction: row !important;
+    }
+
+    .footer-box2-flex {
+        gap: 30px !important;
+    }
+
+    .tours-flex {
+        grid-template-columns: repeat(1, 250px) !important;
+    }
+
+    .tours-title-text {
+        font-size: 18px !important;
+    }
+
+    .tours-title-text {
+        padding: 20px 0 !important;
+        border-radius: 80% 0% !important;
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(1, 250px) !important;
+    }
+
+    .about-sec2-1-result {
+        grid-template-columns: repeat(2, auto) !important;
+    }
+
+    .about-sec2-2 img {
+        height: 222px !important;
+    }
+
+    .about-sec2-2 {
+        height: 222px !important;
+    }
+
+    .googlemaps {
+        width: 280px !important;
+        height: 250px !important;
+    }
+
+    .contact-sec-3-boxs {
+        grid-template-columns: repeat(1, auto) !important;
+    }
+
+    .form1 {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 10px !important;
+    }
+
+    .request-form {
+        min-width: 0 !important;
+        width: 280px !important;
+        padding: 20px 25px !important;
+    }
+
+    .line1-li:nth-child(2)::before,
+    .line1-li:nth-child(3)::before,
+    .line1-soc::before {
+        content: none !important;
+    }
+
+    .box2-line1-1 {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        justify-content: flex-start !important;
+    }
+
+    .box2-line2 span {
+        font-size: 13px !important;
+        color: #ffffff77;
+    }
+
+    .details-box1-text {
+        width: 100% !important;
+    }
+
+    .details-box1-img,
+    .details-box1-img div span {
+        width: 280px !important;
+        height: 240px !important;
+    }
+
+    .flex2-box1-btn {
+        flex-direction: column !important;
+    }
+
+    .sec2-habit {
+        flex-direction: column !important;
+    }
+
+    .sec2-habit-img {
+        width: 100% !important;
+    }
+
+    .sec2-habit-text {
+        width: 100% !important;
+    }
+
+    .box1-linkbtn button {
+        width: 100% !important;
+    }
+
+    .box1-linkbtn {
+        width: 100% !important;
+    }
+
+    .flex2-box2-1 {
+        min-height: 500px !important;
+    }
+
+    .form1 span input {
+        padding: 5px 10px !important;
+    }
+
+    .form1 span select {
+        padding: 5px 10px !important;
+    }
+}

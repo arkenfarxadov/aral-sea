@@ -1,0 +1,340 @@
+.section1 {
+    z-index: 1;
+    background: url("https://lh3.google.com/u/3/d/1U1DLKrydLYDOECjc0zs_7fzKFyAUWn8u=w1428-h944-iv1");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.section2 {
+    z-index: 2;
+    font-family: "Roboto";
+    position: absolute;
+    left: 70%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.sec2-box {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    position: relative;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+}
+
+.sec2-box h3,
+.sec2-box h4 {
+    font-size: 18px;
+}
+
+.sec2-box h2 {
+    font-size: 75px;
+}
+
+.sec2-btn {
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.sec2-button {
+    border-radius: 19px;
+    font-weight: 400 !important;
+    padding: 7px 25px;
+    text-transform: uppercase;
+    font-size: 18px;
+    background-color: #22262a;
+    border: none;
+    color: white !important;
+    cursor: pointer;
+    transition: background-color .4s;
+}
+
+.sec2-button:hover {
+    background-color: #22262aa4;
+}
+
+.section3 {
+    margin: 100px 0;
+}
+
+.sec-3-maps {
+    display: grid;
+    align-items: self-start;
+    justify-content: center;
+    grid-template-columns: repeat(3, 350px);
+    gap: 20px;
+}
+
+.sec-3-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sec-text-align {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.sec-3-text {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 20px;
+    padding: 10px;
+    color: white;
+    font-family: "Roboto";
+    font-size: 23px;
+    background-color: #22262a;
+}
+
+.sec-3-text h5 {
+    z-index: 1;
+}
+
+.sec-3-text::after {
+    z-index: 0;
+    position: absolute;
+    content: "";
+    left: 39%;
+    width: 100%;
+    height: 100%;
+    background-color: #22262a;
+    transform: skew(-50deg, 0deg);
+}
+
+.sec-3-box {
+    padding: 10px;
+    transition: transform .5s, box-shadow .5s;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: self-start;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.sec-3-box:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.sec-3-box-img {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-3-box-img img {
+    height: 100%;
+}
+
+.sec-3-box-text {
+    display: flex;
+    align-items: self-start;
+    gap: 10px;
+    color: #22262a;
+    flex-direction: column;
+    font-family: "Roboto";
+}
+
+.sec-3-box-text h5 {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.sec-3-box-text h3 {
+    font-size: 15px;
+}
+
+.sec-3-box-text h3 span {
+    margin-right: 4px;
+    font-size: 13px;
+    color: #22262a9c;
+}
+
+.line-sections {
+    width: 100%;
+    position: relative;
+    display: block;
+    height: 2px;
+    background-color: #22262a2a;
+}
+
+.section4 {
+    margin: 100px 0;
+}
+
+.sec-4-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-4-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    gap: 30px;
+    grid-auto-rows: 200px;
+}
+
+.sec-4-grid div {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.sec-4-grid div img {
+    cursor: pointer;
+    transition: transform .5s;
+}
+
+.sec-4-grid div img:hover {
+    transform: scale(1.04);
+}
+
+.sec-4-grid div:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.sec-4-grid div:nth-child(1) img {
+    width: 100%;
+}
+
+.sec-4-grid div:nth-child(2) {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.sec-4-grid div:nth-child(2) img {
+    height: 100%;
+}
+
+.sec-4-grid div:nth-child(3) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.sec-4-grid div:nth-child(3) img,
+.sec-4-grid div:nth-child(4) img {
+    height: 100%;
+}
+
+.sec-4-grid div:nth-child(4) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.img-open {
+    cursor: not-allowed;
+    user-select: none;
+    display: block;
+    opacity: 0;
+    transition: opacity .6s, visibility .6s;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.698);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.img-open.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.img-open span {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+}
+
+.img-open span img {
+    cursor: auto;
+    max-width: 1200px;
+    max-height: 700px;
+    position: relative;
+}
+
+.btn-close-img {
+    padding: 3px;
+    font-size: 40px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    right: 0;
+    bottom: 100%;
+    position: absolute;
+    color: white;
+    transition: color .3s;
+}
+
+.btn-close-img:hover {
+    color: rgba(255, 255, 255, 0.381);
+}
+
+.section5 {
+    position: relative;
+    height: 80vh;
+    background: url("//2.downloader.disk.yandex.ru/preview/1f173a094613b690e131727067ed445db9800f57e34525b0992f039c4989d491/inf/BoOFAIOx6xdi50ECd4HhxSWztGumsNC5RuW_fMn4W_15oApN3cVZtSJRdFUTUgjk9UyUcJwOd4kYx6Ihhsq1mA%3D%3D?uid=1946503089&filename=section4.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=1946503089&tknv=v2&size=1765x1160");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+.sec5-box h5 {
+    font-family: "Roboto";
+    white-space: nowrap;
+    font-weight: 900;
+    font-size: 50px;
+    width: 80%;
+}
+.section5-text{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 30%;
+}

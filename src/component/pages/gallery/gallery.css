@@ -1,0 +1,29 @@
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-grid-img {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.gallery-grid-img:hover img {
+    transform: scale(1.1);
+}
+
+.gallery-grid-img img {
+    transition: transform .4s;
+    position: relative;
+    height: 100%;
+}

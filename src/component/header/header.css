@@ -1,0 +1,234 @@
+.header {
+    z-index: 3;
+    background-color: #fff;
+    padding: 15px 0;
+    font-family: "Roboto";
+    display: block;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.head-1 {
+    position: relative;
+    width: 230px;
+}
+
+.head-1 img {
+    width: 100%;
+}
+
+.head-2 ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    white-space: nowrap;
+    gap: 20px;
+    color: #22262A;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.head-2 ul li {
+    cursor: pointer;
+    padding: 2px 0;
+    position: relative;
+    font-size: 20px;
+}
+
+.head-2 ul a:focus li::before {
+    opacity: 1;
+    width: 100%;
+}
+
+.head-2 ul li:hover::before {
+    opacity: 1;
+    width: 100%;
+}
+
+.head-2 ul li::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    top: 130%;
+    background-color: #22262a;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity .5s, width .5s;
+    opacity: 0;
+}
+
+.head-3 {
+    position: relative;
+}
+
+.head-3 ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.head-3-btn {
+    font-weight: 400;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 6px 12px;
+    border: 1px solid #22262aac;
+    background: none;
+    font-size: 18px;
+    transition: color .6s, background-color .6s;
+}
+
+.head-3-btn:hover {
+    background-color: #22262aac;
+    color: #fff;
+
+}
+
+.head-3-btn-lang {
+    background: none;
+    font-size: 25px;
+    color: #22262A;
+    border: none;
+    cursor: pointer;
+    transition: color .4s, transform .4s;
+}
+
+.head-3-btn-lang:hover {
+    transform: scale(1.2);
+    color: #22262acd;
+}
+
+.head-3-btn-lang:active {
+    transform: scale(1);
+}
+
+.head-3-change {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 120%;
+    gap: 5px;
+    background-color: #fff;
+    border: 1px solid #22262a67;
+    transition: opacity .6s, visibility .6s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.head-3-change.active {
+    opacity: 1;
+    visibility: visible
+}
+
+.head-3-btn-change {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 7px;
+    text-align: start;
+    background: none;
+    color: #22262A;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 11px;
+    width: 100%;
+    padding: 5px;
+    transition: background-color .3s;
+}
+
+.head-3-btn-change:hover {
+    background-color: #22262a21;
+}
+
+.head-3-btn-change span {
+    position: relative;
+    height: 11px;
+    width: 16px;
+}
+
+.head-3-btn-change span img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.head-2-menu {
+    display: none;
+    top: 130%;
+    left: 50%;
+    position: absolute;
+}
+.head-2-menu.active{
+    display: block;
+}
+.head-2-menu ul {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+    white-space: nowrap;
+    gap: 10px;
+    color: #22262A;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.head-2-menu ul li {
+    cursor: pointer;
+    padding: 4px 10px;
+    position: relative;
+    border: 1px solid #22262a62;
+    font-size: 15px;
+}
+
+.head-2-menu ul li:hover {
+    background-color: #22262a29;
+}
+
+.head-3-btn-menu {
+    display: none;
+    background: none;
+    font-size: 25px;
+    color: #22262A;
+    border: none;
+    cursor: pointer;
+    transition: color .4s, transform .4s;
+}
+
+.head-3-btn-menu:hover {
+    transform: scale(1.2);
+    color: #22262acd;
+}
+
+.head-3-btn-menu:active {
+    transform: scale(1);
+}
