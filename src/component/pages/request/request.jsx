@@ -216,7 +216,7 @@ const Request = ({ t, tourId, openReq, setOpenReq, setTourId }) => {
                                 <textarea name="message" className="message" id="message"></textarea>
                             </span>
                             <button type="button" onClick={() => { formRequred() }}>
-                                {t("request.bronirova")}
+                                {t("request.ostavit")}
                             </button>
                         </form>
                         <div className="text-btn">
