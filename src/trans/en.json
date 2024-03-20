@@ -67,7 +67,8 @@
         "date": "Date",
         "kolvoPut": "Number of travelers",
         "dpPhone": "Additional phone",
-        "soobchenie": "Message"
+        "soobchenie": "Message",
+        "ostavit":"Application"
     },
     "specialQuetion": {
         "speciQ1": "What's the weather like in Central Asia?",
