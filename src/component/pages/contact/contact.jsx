@@ -80,8 +80,8 @@ const Contact = ({ t }) => {
                                     <span className="contact-sec-3-box-text">
                                         <h1>{t("fioOperator.rasul")}</h1>
                                         <h2>{t("TourOperator")}</h2>
-                                        <h3>{t("phoneNumber")}:<span>+998 50 008 00 66</span></h3>
-                                        <h3>{t("email")}: <span>aymurzaevmurzabek@gmail.com</span></h3>
+                                        <h3>{t("phoneNumber")}:<span>+998 99 545 18 18</span></h3>
+                                        <h3>{t("email")}: <span>besqalatour@gmail.com</span></h3>
                                         <ul className="contact-sec-3-box-soc">
                                             <a href="https://t.me/+998995451818" target="_blank">
                                                 <i class="fa fa-telegram" aria-hidden="true"></i>
@@ -103,8 +103,8 @@ const Contact = ({ t }) => {
                                     <span className="contact-sec-3-box-text">
                                         <h1>{t("fioOperator.xabib")}</h1>
                                         <h2>{t("TourOperator")}</h2>
-                                        <h3>{t("phoneNumber")}:<span>+998 50 008 00 66</span></h3>
-                                        <h3>{t("email")}: <span>aymurzaevmurzabek@gmail.com</span></h3>
+                                        <h3>{t("phoneNumber")}:<span>+998 90 663 96 05</span></h3>
+                                        <h3>{t("email")}: <span>besqalatour@gmail.com</span></h3>
                                         <ul className="contact-sec-3-box-soc">
                                             <a href="https://t.me/+998906639605" target="_blank">
                                                 <i class="fa fa-telegram" aria-hidden="true"></i>
@@ -126,8 +126,8 @@ const Contact = ({ t }) => {
                                     <span className="contact-sec-3-box-text">
                                         <h1>{t("fioOperator.murzik")}</h1>
                                         <h2>{t("TourOperator")}</h2>
-                                        <h3>{t("phoneNumber")}:<span>+998 50 008 00 66</span></h3>
-                                        <h3>{t("email")}: <span>aymurzaevmurzabek@gmail.com</span></h3>
+                                        <h3>{t("phoneNumber")}:<span>+998 91 373 53 33</span></h3>
+                                        <h3>{t("email")}: <span>besqalatour@gmail.com</span></h3>
                                         <ul className="contact-sec-3-box-soc">
                                             <a href="https://t.me/+998913735333" target="_blank">
                                                 <i class="fa fa-telegram" aria-hidden="true"></i>
@@ -150,7 +150,7 @@ const Contact = ({ t }) => {
                                         <h1>{t("fioOperator.timur")}</h1>
                                         <h2>{t("TourOperator")}</h2>
                                         <h3>{t("phoneNumber")}:<span>+998 50 008 00 66</span></h3>
-                                        <h3>{t("email")}: <span>aymurzaevmurzabek@gmail.com</span></h3>
+                                        <h3>{t("email")}: <span>besqalatour@gmail.com</span></h3>
                                         <ul className="contact-sec-3-box-soc">
                                             <a href="https://t.me/+998500080066" target="_blank">
                                                 <i class="fa fa-telegram" aria-hidden="true"></i>

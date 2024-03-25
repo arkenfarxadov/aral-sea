@@ -177,13 +177,16 @@
 }
 
 .head-2-menu {
-    display: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .6s,visibility .6s;
     top: 130%;
-    left: 50%;
+    left: 33%;
     position: absolute;
 }
 .head-2-menu.active{
-    display: block;
+    visibility: visible;
+    opacity: 1;
 }
 .head-2-menu ul {
     display: flex;
@@ -206,7 +209,7 @@
     cursor: pointer;
     padding: 4px 10px;
     position: relative;
-    border: 1px solid #22262a62;
+    border: 2px solid #22262a39;
     font-size: 15px;
 }
 

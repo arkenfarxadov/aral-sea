@@ -693,7 +693,7 @@
 
 @media (max-width:481px) {
     .container {
-        max-width: 320px !important;
+        max-width: 420px !important;
     }
 
     .head-3-btn-menu {
@@ -709,7 +709,7 @@
     }
 
     .head-3 ul {
-        gap: 5px !important;
+        gap: 15px !important;
     }
 
     .head-3-btn {
@@ -717,12 +717,24 @@
     }
 
     .sec-3-maps {
-        grid-template-columns: repeat(1, 250px) !important;
+        grid-template-columns: repeat(1, 350px) !important;
+    }
+
+    .sec-3-box-img {
+        height: 231px !important;
     }
 
     .sec-4-grid {
-        grid-template-columns: repeat(1, 250px) !important;
-        grid-auto-rows: 170px !important;
+        grid-template-columns: repeat(1, 350px) !important;
+        grid-auto-rows: 235px !important;
+    }
+
+    .line1-soc {
+        flex-direction: column !important;
+    }
+
+    .box2-line1-1 {
+        gap: 10px !important;
     }
 
     .sec2-btn {
@@ -761,6 +773,7 @@
 
     .box2-line1 {
         flex-direction: row !important;
+        gap: 45px !important;
     }
 
     .footer-box2-flex {
@@ -768,20 +781,30 @@
     }
 
     .tours-flex {
-        grid-template-columns: repeat(1, 250px) !important;
+        grid-template-columns: repeat(1, 350px) !important;
     }
 
-    .tours-title-text {
-        font-size: 18px !important;
+    .tours-box-img {
+        height: 250px !important;
     }
 
     .tours-title-text {
         padding: 20px 0 !important;
-        border-radius: 80% 0% !important;
+        border-radius: 93% 0% !important;
+        font-size: 18px !important;
     }
 
     .gallery-grid {
-        grid-template-columns: repeat(1, 250px) !important;
+        grid-template-columns: repeat(1, 350px) !important;
+    }
+
+    .gallery-grid-img {
+        height: 230px !important;
+    }
+
+    .img-open span img {
+        max-width: 390px !important;
+        max-height: 350px !important;
     }
 
     .about-sec2-1-result {
@@ -803,6 +826,11 @@
 
     .contact-sec-3-boxs {
         grid-template-columns: repeat(1, auto) !important;
+        gap: 20px !important;
+    }
+
+    .contact-sec-3-box-text {
+        gap: 13px !important;
     }
 
     .form1 {
@@ -840,8 +868,8 @@
 
     .details-box1-img,
     .details-box1-img div span {
-        width: 280px !important;
-        height: 240px !important;
+        width: 350px !important;
+        height: 260px !important;
     }
 
     .flex2-box1-btn {
