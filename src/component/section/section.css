@@ -10,7 +10,7 @@
 }
 
 .section2 {
-    z-index: 2;
+    z-index: 1;
     font-family: "Roboto";
     position: absolute;
     left: 70%;
