@@ -152,6 +152,7 @@
 }
 
 .text-btn {
+    min-width: 300px;
     position: absolute;
     padding: 20px;
     z-index: 10;
