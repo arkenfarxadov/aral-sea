@@ -152,13 +152,13 @@ const TourDetails = ({ setTourId, t, setOpenReq }) => {
                                     <div className="details-flex2">
                                         <div className="details-flex2-box1">
                                             <div className="flex2-box1-btn">
-                                                <a className="box1-linkbtn" >
+                                                <a className="box1-linkbtn" href="#maps">
                                                     <button>{t("marshrut")}</button>
                                                 </a>
-                                                <a className="box1-linkbtn" >
+                                                <a className="box1-linkbtn" href="#inclusion">
                                                     <button>{t("vklicheno")}</button>
                                                 </a>
-                                                <a className="box1-linkbtn" >
+                                                <a className="box1-linkbtn" href="#questions">
                                                     <button>{t("questions")}</button>
                                                 </a>
                                             </div>
@@ -324,7 +324,7 @@ const TourDetails = ({ setTourId, t, setOpenReq }) => {
                                             </div>
 
                                         </div>
-                                        <div className="details-flex2-box2">
+                                        <div className="details-flex2-box2" id="maps">
                                             <div className="flex2-box2-1">
                                                 {
                                                     tours.reduce(e => {
@@ -346,7 +346,7 @@ const TourDetails = ({ setTourId, t, setOpenReq }) => {
                                                 }
                                             </div>
                                             <div className="flex2-box2-2">
-                                                <div className="flex2-box1-sec2">
+                                                <div className="flex2-box1-sec2" id="inclusion">
                                                     <h1 className="flex2-box1-sec2-H1">
                                                         <i class="fa fa-umbrella" aria-hidden="true"></i>
                                                         {t("vklicheno")}:
@@ -371,7 +371,7 @@ const TourDetails = ({ setTourId, t, setOpenReq }) => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="details-flex3">
+                                    <div className="details-flex3" id="questions">
                                         <div className="flex2-box1-sec3">
                                             <h1 className="flex2-box1-sec3-H1">
                                                 {t("questions")}

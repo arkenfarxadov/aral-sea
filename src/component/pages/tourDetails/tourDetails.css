@@ -1,6 +1,7 @@
 .tourdetails {
     font-family: "Roboto";
     margin: 50px auto;
+    scroll-behavior: smooth !important;
 }
 
 .details-flex {
