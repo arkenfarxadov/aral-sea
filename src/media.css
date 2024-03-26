@@ -731,10 +731,11 @@
 
     .line1-soc {
         flex-direction: column !important;
+        gap: 20px !important;
     }
 
     .box2-line1-1 {
-        gap: 10px !important;
+        gap: 20px !important;
     }
 
     .sec2-btn {
@@ -777,7 +778,10 @@
     }
 
     .footer-box2-flex {
-        gap: 14px !important;
+        gap: 19px !important;
+    }
+    .footer-box2{
+        padding: 20px 0 !important;
     }
 
     .tours-flex {
@@ -906,5 +910,22 @@
 
     .form1 span select {
         padding: 5px 10px !important;
+    }
+    .line1-soc a {
+        width: 45px !important;
+        height: 45px !important;
+    }
+    .line1-soc a i {
+        font-size: 30px !important;
+    }
+    .line1-li-text h1 {
+        font-size: 12px !important;
+    }
+    .logo-i-li {
+        width: 45px !important;
+        height: 45px !important;
+    }
+    .logo-i-li i {
+        font-size: 27px !important;
     }
 }
