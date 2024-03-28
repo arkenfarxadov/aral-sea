@@ -56,6 +56,27 @@ const App = () => {
             window.scrollTo(0, 0)
 
         }
+        if (e === 'fr') {
+            i18n.changeLanguage('fr');
+            setLanguage('fr');
+            headChangeVisible.classList.remove("active")
+            window.scrollTo(0, 0)
+
+        }
+        if (e === 'is') {
+            i18n.changeLanguage('is');
+            setLanguage('is');
+            headChangeVisible.classList.remove("active")
+            window.scrollTo(0, 0)
+
+        }
+        if (e === 'ja') {
+            i18n.changeLanguage('ja');
+            setLanguage('ja');
+            headChangeVisible.classList.remove("active")
+            window.scrollTo(0, 0)
+
+        }
     };
     const [tourId, setTourId] = useState("");
     const [openReq, setOpenReq] = useState(false);

@@ -75,6 +75,24 @@ const Header = ({ t, activeheadChange, changeLang, setOpenReq, activeheadMenu })
                                             </span>
                                             English
                                         </Link>
+                                        <Link onClick={() => { changeLang("is") }} to={"/"} className="head-3-btn-change">
+                                            <span>
+                                                <img src="../../../IS.png" alt="" />
+                                            </span>
+                                            Ispaniya
+                                        </Link>
+                                        <Link onClick={() => { changeLang("ja") }} to={"/"} className="head-3-btn-change">
+                                            <span>
+                                                <img src="../../../JA.png" alt="" />
+                                            </span>
+                                            日本
+                                        </Link>
+                                        <Link onClick={() => { changeLang("fr") }} to={"/"} className="head-3-btn-change">
+                                            <span>
+                                                <img src="../../../FR.png" alt="" />
+                                            </span>
+                                            France
+                                        </Link>
                                     </span>
                                 </li>
                                 <li>

@@ -95,7 +95,7 @@ const Request = ({ t, tourId, openReq, setOpenReq, setTourId }) => {
             const date1 = document.querySelector("#date1");
             const message = document.querySelector("#message");
             setTourId("")
-            if (question.value == "Вопрос" || question.value == "Question") {
+            if (question.value == t("request.quests")) {
                 offTours.style = "display:none"
                 offDate.style = "display:none"
                 offKolvo.style = "display:none"
@@ -108,7 +108,7 @@ const Request = ({ t, tourId, openReq, setOpenReq, setTourId }) => {
                 date1.value = ""
                 message.value = ""
             }
-            else if (question.value == "Бронирование" || question.value == "Reservation") {
+            else if (question.value ==  t("request.bronirova")) {
                 offTours.style = "display:block"
                 offDate.style = "display:block"
                 offKolvo.style = "display:block"
